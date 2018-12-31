@@ -20,7 +20,8 @@ namespace TradeSimulator.lib
             Length = 1;
 
             ExitDate = null;
-            ExitPrice = null;
+            ExitPrice = null;            
+
         }
         //手仕舞う
         public override void Exit(DateTime date, double price, TimeEnum time)

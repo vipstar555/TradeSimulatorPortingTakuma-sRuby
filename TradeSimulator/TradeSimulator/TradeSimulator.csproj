@@ -45,8 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="check\ArrayCheck.cs" />
     <Compile Include="check\TradeCheck.cs" />
+    <Compile Include="lib\indicator\Estrangement.cs" />
+    <Compile Include="lib\indicator\Indicator.cs" />
+    <Compile Include="lib\StockLinqExtension.cs" />
     <Compile Include="lib\Trade.cs" />
+    <Compile Include="lib\TradingSystem.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
-    <Folder Include="lib\indicator\" />
     <Folder Include="lib\rule\" />
     <Folder Include="result\" />
     <Folder Include="setting\" />

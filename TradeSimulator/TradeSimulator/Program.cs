@@ -14,7 +14,8 @@ namespace TradeSimulator
         [STAThread]
         static void Main()
         {
-            TradeSimulator.check.TradeCheck.TradeCheckMain();
+            //TradeSimulator.check.TradeCheck.TradeCheckMain();
+            TradeSimulator.check.ArrayCheck.ArrayCheckMain();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
